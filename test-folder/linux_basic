@@ -1,0 +1,60 @@
+  
+        #Directory & Navigation
+
+pwd                     # Show current directory
+ls                      # List files and folders
+cd <folder>             # Change directory
+cd ..                   # Move up one level
+mkdir <folder>          # Create a new folder
+rmdir <folder>          # Remove an empty folder
+     
+      #File Operations
+touch <file>            # Create a new empty file
+cp <src> <dest>         # Copy file or folder
+mv <src> <dest>         # Move or rename file/folder
+rm <file>               # Delete file
+rm -r <folder>          # Delete non-empty folder
+cat <file>              # View file contents
+nano <file>             # Edit file using nano editor
+
+
+	#User & Permissions
+whoami                  # Show current user
+id                      # Show user ID and groups
+ls -l <file>            # View file permissions
+chmod u+x <file>        # Add execute permission for owner
+chmod g-w <file>        # Remove write permission from group
+chown <user>:<group> <file>  # Change file ownership
+
+
+
+	#Package Management
+sudo apt update         # Refresh package index
+sudo apt upgrade        # Upgrade installed packages
+sudo apt install <pkg>  # Install a package
+sudo apt remove <pkg>   # Uninstall a package
+
+
+
+	#Help & Documentation
+man <command>           # Open manual page for a command
+<command> --help        # Show help for a command
+
+
+	#Archiving & Compression
+zip <archive.zip> <file>         # Create a zip archive
+unzip <archive.zip>              # Extract a zip archive
+tar -cvf archive.tar <folder>    # Create a tar archive
+tar -xvf archive.tar             # Extract a tar archive
+
+
+	#System Monitoring
+top                     # Live system monitor
+htop                    # Enhanced system monitor (if installed)
+free -h                 # RAM usage
+df -h                   # Disk usage
+uptime                  # System load averages
+lsblk                   # Block devices
+ip a                    # Show IP addresses
+ping google.com         # Test internet connectivity
+
